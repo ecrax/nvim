@@ -18,4 +18,18 @@ return {
       colorscheme = "poimandres",
     },
   },
+  {
+    "echasnovski/mini.indentscope",
+    opts = {
+      draw = {
+        animation = require("mini.indentscope").gen_animation.none(),
+      },
+    },
+  },
+  {
+    "rcarriga/nvim-notify",
+    opts = {
+      background_colour = "#000000",
+    },
+  },
 }
